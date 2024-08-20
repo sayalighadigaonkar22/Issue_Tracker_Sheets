@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Issue Tracker - Submit to Google Sheets",
+    "version": "1.0",
+    "description": "Creating Issue Tracker Submitting data into Google Sheet",
+    "permissions": [
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "html/index.html"
+    },
+    "chrome_url_overrides": {
+      "newtab": "html/index.html"
+    }
+  }
+  
